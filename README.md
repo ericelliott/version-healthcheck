@@ -10,8 +10,8 @@ It will deliver a JSON payload something like this:
 ```
 {
   "name": "my-app"
-  version: 
-  build: latest build # read from a generated file: APP_HOME/config/BUILD
+  "version": "0.0.1"
+  "build": "4f26144348c55f38c9747c9eebc4e8a716a3ca0e"
 }
 ```
 
