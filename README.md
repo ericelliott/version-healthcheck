@@ -11,7 +11,7 @@ It will deliver a JSON payload something like this:
 {
   "name": "my-app"
   "version": "0.0.1"
-  "build": "4f26144348c55f38c9747c9eebc4e8a716a3ca0e"
+  "build": "4f26147"
 }
 ```
 
