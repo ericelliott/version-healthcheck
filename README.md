@@ -39,8 +39,12 @@ app.get('/version', version);
 You also have access to configure the response in any way you like:
 
 ```js
+var express = require('express');
 var configureVersion = require('version-healthcheck').configure;
-  version = configureVersion({
+
+var app = express();
+
+var version = configureVersion({
     callback: function customVersion(req, res) {
       // `this` is the version response. It will already contain
       // the default values.
