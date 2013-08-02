@@ -58,3 +58,5 @@ var version = configureVersion({
 
 app.get('/version', version);
 ```
+
+# MIT License #
