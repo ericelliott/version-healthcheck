@@ -1,0 +1,35 @@
+{
+  "name": "version-healthcheck",
+  "version": "0.0.1",
+  "description": "A plug-and-play /version route for the Node.js Express framework.",
+  "main": "version.js",
+  "scripts": {
+    "test": "node ./test/runtests.js"
+  },
+  "devDependencies": {
+    "supertest": "~0.7.1",
+    "tape": "~1.0.4",
+    "express": "~3.3.4",
+    "qconf": "~0.2.0",
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.6.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dilvie/version-healthcheck.git"
+  },
+  "keywords": [
+    "version",
+    "healthcheck",
+    "express",
+    "monitoring",
+    "deployment"
+  ],
+  "author": "Eric Elliott",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "mout": "~0.6.0",
+    "stampit": "~0.5.1"
+  }
+}
