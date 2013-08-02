@@ -19,7 +19,23 @@ It will deliver a JSON payload something like this:
 * **version:** app version from package.json
 * **build:** latest build # read from a generated file: APP_HOME/config/BUILD
 
-I recommend using the included build script to use the latest git commit hash for `./config/BUILD`.
+You can use your latest git build hash by adding the following line to your `package.json` `scripts` block:
+
+```json
+  "scripts": {
+    "build-hash": "git rev-parse --short=7 HEAD > ./config/BUILD"
+  }
+```
+
+To execute the command, run:
+
+```
+$ npm run-script build-hash
+```
+
+Or add that git command to your existing build script.
+
+By comparing code using the git build hash, you can easily see exactly what version of the software is deployed on your servers, using version control.
 
 
 ## Getting started
