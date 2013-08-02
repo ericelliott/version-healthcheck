@@ -54,7 +54,7 @@ version = stampit().enclose(function () {
       body;
 
     if (options.callback) {
-      options.callback.call(this, req, res);
+      options.callback.call(responseObj, req, res);
     }
 
     body = JSON.stringify(responseObj);
