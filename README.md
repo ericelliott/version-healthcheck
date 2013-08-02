@@ -21,7 +21,7 @@ It will deliver a JSON payload something like this:
 
 You can use your latest git build hash by adding the following line to your `package.json` `scripts` block:
 
-```json
+```
   "scripts": {
     "build-hash": "git rev-parse --short=7 HEAD > ./config/BUILD"
   }
