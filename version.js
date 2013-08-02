@@ -58,7 +58,7 @@ version = stampit().enclose(function () {
     }
 
     body = JSON.stringify(responseObj);
-
+    res.setHeader('Content-Type', 'application/json');
     res.end(body);
   };
 
