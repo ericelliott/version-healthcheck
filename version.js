@@ -35,7 +35,7 @@ var path = require('path'),
 
   configure = function configure(options) {
     var instance = version();
-    instance.options = mixIn({}, options);
+    instance.options = mixIn({}, instance.options, options);
     return instance;
   };
 
