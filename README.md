@@ -53,8 +53,9 @@ var version = configureVersion({
       this.foo = 'bar';
       // You can also access the request and response objects.
       this.url = req.url
-    }
-  });
+    },
+    buildPath: '/customPath/BUILD' // path is relative to the app directory.
+});
 
 app.get('/version', version);
 ```
