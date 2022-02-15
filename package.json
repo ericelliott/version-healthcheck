@@ -29,7 +29,7 @@
   "license": "MIT",
   "readmeFilename": "README.md",
   "dependencies": {
-    "mout": "~0.6.0",
-    "stampit": "~0.5.1"
+    "mout": "^1.2.3",
+    "stampit": "^4.3.2"
   }
 }

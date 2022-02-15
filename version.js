@@ -39,7 +39,7 @@ var path = require('path'),
     return instance;
   };
 
-version = stampit().enclose(function () {
+version = stampit.init(function () {
   var handler = function (req, res) {
     var options = handler.options,
       pkg = options.pkg || readPkg(),
