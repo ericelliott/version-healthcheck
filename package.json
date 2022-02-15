@@ -1,6 +1,6 @@
 {
   "name": "version-healthcheck",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A plug-and-play /version route for the Node.js Express framework.",
   "main": "version.js",
   "scripts": {
@@ -29,7 +29,7 @@
   "license": "MIT",
   "readmeFilename": "README.md",
   "dependencies": {
-    "mout": "~0.6.0",
-    "stampit": "~0.5.1"
+    "mout": "^1.2.3",
+    "stampit": "^4.3.2"
   }
 }
